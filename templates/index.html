@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodChow - AI Powered Food Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="static\style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="logo">🍽️ FoodChow</div>
+        <nav>
+            <ul>
+                <li><a href="#">🏠 Home</a></li>
+                <li><a href="#">🍕 Menu</a></li>
+                <li><a href="#">🥗 Healthy Choices</a></li>
+                <li><a href="#">🌟 Best Sellers</a></li>
+                <li><a href="#">📍 Find Restaurants</a></li>
+                <li><a href="#">📞 Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Top Navigation -->
+        <header class="top-nav">
+            <input type="text" placeholder="Search for dishes, restaurants..." class="search-box">
+            <button class="ray-btn">FOODCHOW AI 🤖</button>
+            <div class="user-options">
+                <a href="#">Log In</a>
+                <a href="#" class="signup-btn">Sign Up</a>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>🍔 Welcome to FoodChow</h1>
+                <p>Discover top restaurants, trending dishes, and amazing flavors near you.</p>
+                <button class="explore-btn">Explore Menu</button>
+            </div>
+            <img src="static/D1.jpg" alt="Delicious Food" class="hero-image">
+        </section>
+
+        <!-- Featured Restaurants -->
+        <section class="featured">
+            <h2>🏆 Featured Restaurants</h2>
+            <div class="restaurant-grid">
+                <div class="restaurant-card">
+                    <img src="static/R1.jpg" alt="Restaurant 1">
+                    <h3>Royal Feast</h3>
+                    <p>Best fine dining experience</p>
+                </div>
+                <div class="restaurant-card">
+                    <img src="static/R2.jpg" alt="Restaurant 2">
+                    <h3>Urban Bites</h3>
+                    <p>Modern flavors with an urban twist</p>
+                </div>
+                <div class="restaurant-card">
+                    <img src="static/R3.jpg" alt="Restaurant 3">
+                    <h3>Spice House</h3>
+                    <p>Authentic Indian cuisine</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trending Dishes -->
+        <section class="trending">
+            <h2>🔥 Trending Dishes</h2>
+            <div class="dish-grid">
+                <div class="dish-card">
+                    <img src="static/P1.jpg" alt="Pizza">
+                    <h3>🍕 Italian Pizza</h3>
+                </div>
+                <div class="dish-card">
+                    <img src="static/B1.jpg" alt="Burger">
+                    <h3>🍔 Classic Burger</h3>
+                </div>
+                <div class="dish-card">
+                    <img src="static/C1.jpg" alt="Pasta">
+                    <h3>🍝 Creamy Pasta</h3>
+                </div>
+            </div>
+        </section>
+        <section class="trending">
+            
+            <div class="dish-grid">
+                <div class="dish-card">
+                    <img src="static/P1.jpg" alt="Pizza">
+                    <h3>🍕 Italian Pizza</h3>
+                </div>
+                <div class="dish-card">
+                    <img src="static/B1.jpg" alt="Burger">
+                    <h3>🍔 Classic Burger</h3>
+                </div>
+                <div class="dish-card">
+                    <img src="static/C1.jpg" alt="Pasta">
+                    <h3>🍝 Creamy Pasta</h3>
+                </div>
+            </div>
+        </section>
+        <section class="trending">
+            
+            <div class="dish-grid">
+                <div class="dish-card">
+                    <img src="static/P1.jpg" alt="Pizza">
+                    <h3>🍕 Italian Pizza</h3>
+                </div>
+                <div class="dish-card">
+                    <img src="static/B1.jpg" alt="Burger">
+                    <h3>🍔 Classic Burger</h3>
+                </div>
+                <div class="dish-card">
+                    <img src="static/C1.jpg" alt="Pasta">
+                    <h3>🍝 Creamy Pasta</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Chatbot Window (Initially Hidden) -->
+    <div class="chatbot-container" id="chatbot">
+        <div class="chat-header">
+            <span>🤖 FOODCHOW AI Assistant</span>
+            <button class="close-btn" onclick="toggleChat()">✖</button>
+        </div>
+        <div class="chat-body" id="chat-body">
+            <div class="message-container bot-message-container">
+                <img src="static/chatbot-data.png" alt="Bot Icon" class="message-icon">
+                <div class="bot-message">Hello! How can I help you today? 😊</div>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send <i class="fas fa-paper-plane"></i></button>
+        </div>
+        
+    </div>
+
+    <script src="static\script.js"></script>
+</body>
+
+</html>
