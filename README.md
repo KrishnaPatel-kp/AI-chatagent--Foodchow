@@ -192,8 +192,7 @@ My responsibilities included:
 **Krishna Patel**
 
 Computer Engineering Graduate | Software Developer | AI/ML Enthusiast
-
-
+*📝 Note: This project README description was prepared with the assistance of AI.*
 <p align="center">
   <b>🤖 Making restaurant technology smarter through AI-powered conversations.</b>
 </p>
